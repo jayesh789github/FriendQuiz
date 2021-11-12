@@ -37,8 +37,12 @@ answer:"black"},
   answer:"thombre"
 },
 { 
-  question:"Am I handsome than you or no? ",
+  question:"Am I handsome than you? yes or no? ",
   answer:"yes"
+},
+{
+  question:"What's my educational qualification?",
+  answer:"12th pass"
 }]
 for(var i=0;i<question.length;i++)
 {
