@@ -1,4 +1,14 @@
-var readlineSync=require("readline-sync")
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jayu</title>
+</head>
+<body>
+ var readlineSync=require("readline-sync")
 var score=0
 var userName=readlineSync.question("What's your name?  ")
 console.log("welcome! "+userName+" to 'DO YOU KNOW JAYESH?'");
@@ -50,3 +60,5 @@ for(var i=0;i<question.length;i++)
     play(currentQuestion.question,currentQuestion.answer)
 }
 console.log("Your final score is=",score)
+</body>
+</html>
